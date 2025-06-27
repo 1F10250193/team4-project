@@ -1,5 +1,19 @@
-.red{
-    color:red;
+body {
+    font-family: sans-serif;
+    background-image: url(/img/haikei.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+#minorgame {
+width: 250px;
+
+}
+.hajime{
+  padding: 0.5em;
+  color: #494949;
+  background: #fffaf4;
+  border-left: solid 5px #ffaf58;
 }
 
 #container {
@@ -8,14 +22,59 @@
 }
 
 .sidebar {
-  width: 30%;
+  width: 20%;
   margin: 10px 10px 10px 0;
   border-right: solid black;
+  background-color: rgb(228, 228, 228);
   
 }
 
 .content {
-  width: 70%;
+  width: 60%;
   margin: 10px 0 10px 0;
 }
 
+.sidebar-right{
+  width: 20%;
+  margin: 10px 0 10px 0;
+}
+
+.midasi {
+  text-align: center;
+  padding: 1rem 3rem;
+  -webkit-transform: skew(-15deg);
+  transform: skew(-15deg);
+  color: #fff;
+  background-image: -webkit-gradient(linear, left top, right top, from(#209cff), to(#68e0cf));
+  background-image: -webkit-linear-gradient(left, #209cff 0%, #68e0cf 100%);
+  background-image: linear-gradient(to right, #209cff 0%, #68e0cf 100%);
+}
+
+#numa {
+  background-image: -webkit-gradient(linear, right top, left top, from(#e14fad), to(#f9d423));
+  background-image: -webkit-linear-gradient(right, #e14fad 0%, #f9d423 100%);
+  background-image: linear-gradient(to left, #e14fad 0%, #f9d423 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}
+
+#numagetoha {
+  margin: 30px 600px 0px 20px;
+  border-bottom: double 5px #FFC778;
+  font-size: 25px;
+}
+
+#neruma {
+  text-align: center;
+  text-decoration: double underline;
+}
+
+.daigakuranking{
+  padding: 0.5em;
+  color: #494949;
+  background: #fffaf4;
+  border-left: solid 5px #5fcb0c;
+  margin: 100px 0px 0px 0px;
+}
