@@ -1,30 +1,32 @@
 div.gaiyou {
-  border: 3px solid;
-  border-image: linear-gradient(to bottom, #b5ecd6,#8ccbb2) 1;
-  margin: 10px 10px 10px 10px;
+  font-size: 20px;
+  margin: 30px 30px 30px 30px;
   padding: 10px 10px 10px 10px;
 }
 div.rele {
-  border: 3px solid;
-  border-image: linear-gradient(to bottom, #b5d6ec,#8cb3cb) 1;
-  margin: 10px 10px 10px 10px;
+  font-size: 20px;
+  margin: 30px 30px 30px 30px;
   padding: 10px 10px 10px 10px;
 }
-div.title {
-  width: 640px;
-  height: 427px;
-  position: relative;
-}
-div.title img{
-  width: 100%;
-}
-h1 {
+.example h2 {
   position: absolute;
   top: 50%;
   left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
   transform: translate(-50%,-50%);
-  text-align: center;
-  padding: 0;
-  margin: 0;
-  font-size: 60px;
+  margin:0;
+  padding:0;
+  font-size: 120px;
+}
+span {
+  font-family: "Yuji Boku", serif;
+  font-weight: 70px;
+  font-style: normal;
+}
+.example {
+  position: relative;
+}
+.example img {
+  width: 100%;
 }
