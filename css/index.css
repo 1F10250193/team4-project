@@ -3,11 +3,17 @@ body {
     background-image: url(/img/haikei.png);
     background-size: cover;
     background-position: center center;
+    background-attachment: fixed; 
 }
 
 #minorgame {
-width: 250px;
+width: 251px;
 
+}
+
+#koukoku{ 
+  width: 251px;
+  margin-top: 50px;
 }
 .hajime{
   padding: 0.5em;
@@ -61,11 +67,18 @@ width: 250px;
 }
 
 #numagetoha {
-  margin: 30px 600px 0px 20px;
+  display: inline-block;
+  margin: 30px 20px 0px 20px;
   border-bottom: double 5px #FFC778;
   font-size: 25px;
 }
+#ranking {
+  display: inline-block;
+  margin: 30px 20px 0px 20px;
+  border-bottom: double 5px #0fbfff;
+  font-size: 25px;
 
+}
 #neruma {
   text-align: center;
   text-decoration: double underline;
@@ -77,4 +90,14 @@ width: 250px;
   background: #fffaf4;
   border-left: solid 5px #5fcb0c;
   margin: 100px 0px 0px 0px;
+}
+
+.yt {
+  margin :30px 20px 0px 20px;
+
+}
+
+#gamesetumei {
+ margin: 30px 20px 0px 20px;
+
 }
